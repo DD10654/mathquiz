@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color:aquamarine;
+}
+
+#img {
+    width: 800px;
+}
+
+#heading {
+    font-size: 100px;
+}
+
+.input {
+    font-size: larger;
+}
+
+.player {
+    font-size: larger;
+}
+
+#login {
+    width: 30%;
+    font-size: medium;
+}
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#word_display
+{
+	letter-spacing: 5px;
+}

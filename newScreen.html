@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Math Quiz</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <img src="math.png" id="img">
+        </div>
+    
+    
+    
+    
+    
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="form-control" style="height: fit-content; margin-top: 50px;">
+            <label id="heading">Math Quiz</label>
+        </div>
+
+        <div class="form-control" style="height: fit-content; margin-top: 50px;">
+            <label class="player">1st Number</label>
+            <br>
+            <br>
+            <input type="text" placeholder="1st Number" class="input" id="nu1">
+        </div>
+
+        <div class="form-control" style="height: fit-content; margin-top: 50px;">
+            <label class="player">2nd Number</label>
+            <br>
+            <br>
+            <input type="text" placeholder="2nd Number" class="input" id="nu2">
+            
+        </div>
+<br><br>
+       <div id="output"></div>
+
+<br> <br>
+<div class="form-control" style="height: fit-content; margin-top: 50px;">
+    <label class="player" style="font-size: 35px;">Score and Turns</label>
+ 
+<h4 id="player1Score"></h4>
+<h4 id="player2Score"></h4>
+<h4 id="question"></h4>
+<h4 id="answer"></h4>
+
+</div>
+
+        <div class="form-control" style="height: fit-content; margin-top: 50px;" id="question-div">
+            <button class="btn-info" id="login" onclick="send()">Send</button>
+        </div>
+        </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
